@@ -1,0 +1,19 @@
+{
+  "name": "somos-circulos-oficial",
+  "version": "1.0.0",
+  "description": "proyecto coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomedinamora1/somoscirculosoficial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegomedinamora1/somoscirculosoficial/issues"
+  },
+  "homepage": "https://github.com/diegomedinamora1/somoscirculosoficial#readme"
+}
