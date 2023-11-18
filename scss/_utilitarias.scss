@@ -10,28 +10,21 @@
 .centerButton {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: $centerContent;
   }
   
   
 .padding {
     padding: 100px;
   }
-  
-.centerContent {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    padding-bottom: 25px;
-  }
+
 .centerText {
     display:flex;
-    justify-content: center;
+    justify-content: $centerContent;
     
 }
 .alignText{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: $centerContent;
 }
