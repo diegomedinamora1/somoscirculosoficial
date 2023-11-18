@@ -26,6 +26,7 @@
 }
 .purple{
     color: $color-secundario;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bgPurple{
     background-color: $color-secundario;
@@ -42,6 +43,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .times {
   font-family: 'Times New Roman', Times, serif;
 }

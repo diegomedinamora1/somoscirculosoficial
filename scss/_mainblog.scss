@@ -7,8 +7,11 @@
     justify-content: $centerContent;
 }
 .purple{
-    color: $color-secundario
+    color: $color-secundario;
 }
 .bgPurple{
-    color: $color-secundario
+    background-color: $color-secundario;
 }
+.times{
+    font-family: 'Times New Roman', Times, serif;
+  }
