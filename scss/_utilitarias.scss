@@ -24,7 +24,5 @@
     
 }
 .alignText{
-  display: flex;
-  flex-direction: column;
-  justify-content: $centerContent;
+  @extend .centerButton
 }

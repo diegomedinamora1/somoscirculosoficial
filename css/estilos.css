@@ -11,7 +11,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.centerButton {
+.centerButton, .alignText {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,6 @@
 
 .centerText {
   display: flex;
-  justify-content: center;
-}
-
-.alignText {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -82,7 +76,7 @@ button {
   cursor: pointer;
 }
 
-.centerButton {
+.centerButton, .alignText {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +90,7 @@ button {
   color: purple;
 }
 
-.articulo{
+.articulo {
   font-weight: 500;
 }
 
