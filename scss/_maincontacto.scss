@@ -5,6 +5,7 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
+  
 }
 
 label {
@@ -34,12 +35,13 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.purple{
-  color: $color-secundario;
-}
-.bgPurple{
-  background-color: $color-secundario;
-}
+
 .times{
-  font-family: 'Times New Roman', Times, serif;
-}
+    font-family: 'Times New Roman', Times, serif;
+  }
+.purple{
+    color: $color-secundario;
+  }
+
+
+

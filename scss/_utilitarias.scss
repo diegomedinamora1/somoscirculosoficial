@@ -7,3 +7,31 @@
 .times{
     font-family: 'Times New Roman', Times, serif;
   }
+.centerButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+.padding {
+    padding: 100px;
+  }
+  
+.centerContent {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 25px;
+  }
+.centerText {
+    display:flex;
+    justify-content: center;
+    
+}
+.alignText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
