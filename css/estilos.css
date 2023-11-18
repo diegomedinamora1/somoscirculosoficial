@@ -5,9 +5,26 @@
   box-sizing: border-box;
 }
 
-.heroSection{
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heroSection {
   display: flex;
   padding: 100px;
+}
+
+.padding {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .centerContent {
@@ -27,6 +44,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.purple {
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
 
 form {
@@ -60,6 +102,58 @@ button {
   cursor: pointer;
 }
 
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.padding {
+  padding: 100px;
+}
+
+.centerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .padding {
   padding: 100px;
 }
@@ -70,18 +164,28 @@ button {
   align-items: center;
 }
 
-.alignText{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.purple{
+.purple {
   color: purple;
 }
-.bgPurple{
+
+.bgPurple {
   background-color: purple;
 }
 
-.times{
-  font-family: 'Times New Roman', Times, serif;
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
+
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=estilos.css.map */
