@@ -11,19 +11,20 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.centerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.padding {
+.heroSection {
+  display: flex;
   padding: 100px;
 }
 
-.centerContent {
+.centerLogo{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   height: 100px;
   padding-bottom: 25px;
@@ -34,21 +35,16 @@
   justify-content: center;
 }
 
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .alignText {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.heroSection {
-  display: flex;
-  padding: 100px;
 }
 
 form {
@@ -88,12 +84,11 @@ button {
   align-items: center;
 }
 
-.times {
-  font-family: "Times New Roman", Times, serif;
+
+.padding {
+  padding: 100px;
 }
 
-.purple {
-  color: purple;
-}
+
 
 /*# sourceMappingURL=estilos.css.map */
