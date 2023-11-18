@@ -11,14 +11,13 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.heroSection {
-  display: flex;
+.padding {
   padding: 100px;
 }
 
@@ -35,16 +34,21 @@
   justify-content: center;
 }
 
-.centerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .alignText {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroSection {
+  display: flex;
+  padding: 100px;
 }
 
 form {
@@ -84,11 +88,12 @@ button {
   align-items: center;
 }
 
-
-.padding {
-  padding: 100px;
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
 
-
+.purple {
+  color: purple;
+}
 
 /*# sourceMappingURL=estilos.css.map */
