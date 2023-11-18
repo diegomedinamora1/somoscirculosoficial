@@ -5,17 +5,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  background-color: purple;
-}
-
-@media screen and (width <= 768px) {
-  /*hacer media query*/
-}
-.hola {
-  padding: 100px;
-}
-
 .heroSection {
   display: flex;
   padding: 100px;
@@ -24,6 +13,58 @@
 .padding {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding-bottom: 25px;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purple {
+  color: purple;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.purple {
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bgPurple {
+  background-color: purple;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
 }
 
 form {
@@ -55,6 +96,32 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.padding {
+  padding: 100px;
+}
+
+.centerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padding {
+  padding: 100px;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

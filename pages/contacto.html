@@ -12,38 +12,55 @@
   <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Círculos</span>
+      <span class="fs-4 purple">Círculos</span>
     </a>
     <ul class="nav nav-pills">
-      <li class="nav-item"><a href="/pages/circulosenvivo.html" class="nav-link">Circulos En Vivo</a></li>
-      <li class="nav-item"><a href="/pages/blog.html" class="nav-link">Blog</a></li>
-      <li class="nav-item"><a href="/pages/contacto.html" class="nav-link">Contacto</a></li>
-      <li class="nav-item"><a href="/pages/app.html" class="nav-link">Descarga la App</a></li>
+      <li class="nav-item"><a href="/pages/circulosenvivo.html" class="nav-link purple">Círculos En Vivo</a></li>
+      <li class="nav-item"><a href="/pages/blog.html" class="nav-link purple">Blog</a></li>
+      <li class="nav-item"><a href="/pages/contacto.html" class="nav-link purple">Contacto</a></li>
+      <li class="nav-item"><a href="/pages/app.html" class="nav-link purple">Descarga la App</a></li>
     </ul>
   </header>
-    <main class="padding">
-        <h2>Contáctanos </h2>
-        <p>Estamos aqui para lo que necesites.</p>
-            <label for="">Nombre completo*</label>
-            <input type="text" id="Nombre completo" name="nombre completo" placeholder="Ingresa tu nombre" required>
-
-            <label  for="">Correo electrónico*</label>
-            <input type="email" id="Correo electrónico" name="correo electrónico" placeholder="Ingresa tu correo" required>
-
-            <label for="">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-
-            <div>
-                <input type="submit"></input>
+    <main class="centerButton">
+        <h2 class="purple">Contáctanos </h2>
+        <p>Si tienes alguna pregunta, comunícate con nosotros.</p>
+        <p>Nos comunicaremos tan pronto como podamos.</p>
+        
+        <form >
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
             </div>
+  
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">¿Cómo te podemos ayudar?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn-dark bgPurple" href="/pages/404.html" role="button">Enviar Información</a>
         </form>
     </main>
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/pages/circulosenvivo.html" class="nav-link px-2 text-body-secondary">Círculos en Vivo</a></li>
-        <li class="nav-item"><a href="/pages/blog.html" class="nav-link px-2 text-body-secondary">Blog</a></li>
-        <li class="nav-item"><a href="/pages/contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
-        <li class="nav-item"><a href="/pages/app.html" class="nav-link px-2 text-body-secondary">Descarga la App</a></li>
+        <li class="nav-item"><a href="/pages/circulosenvivo.html" class="nav-link px-2 text-body-secondary purple">Círculos en Vivo</a></li>
+        <li class="nav-item"><a href="/pages/blog.html" class="nav-link px-2 text-body-secondary purple">Blog</a></li>
+        <li class="nav-item"><a href="/pages/contacto.html" class="nav-link px-2 text-body-secondary purple">Contacto</a></li>
+        <li class="nav-item"><a href="/pages/app.html" class="nav-link px-2 text-body-secondary purple">Descarga la App</a></li>
       </ul>
       <p class="text-center text-body-secondary">© 2023 Somos Círculos, Inc</p>
     </footer>
