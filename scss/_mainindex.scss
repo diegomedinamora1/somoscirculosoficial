@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 .purple{
     color: $color-secundario;
 }
@@ -41,14 +41,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.purple{
-  color: purple;
-  font-family: 'Times New Roman', Times, serif
-}
-.bgPurple{
-  background-color: purple;
 }
 .times {
   font-family: 'Times New Roman', Times, serif;

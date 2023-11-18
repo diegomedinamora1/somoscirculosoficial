@@ -5,14 +5,9 @@
   box-sizing: border-box;
 }
 
-.heroSection {
+.heroSection{
   display: flex;
   padding: 100px;
-}
-
-.padding {
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .centerContent {
@@ -32,39 +27,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.purple {
-  color: purple;
-}
-
-.bgPurple {
-  background-color: purple;
-}
-
-.centerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.alignText {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.purple {
-  color: purple;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.bgPurple {
-  background-color: purple;
-}
-
-.times {
-  font-family: "Times New Roman", Times, serif;
 }
 
 form {
@@ -98,30 +60,28 @@ button {
   cursor: pointer;
 }
 
-.centerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .padding {
   padding: 100px;
 }
 
 .centerButton {
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.alignText{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
-
-.padding {
-  padding: 100px;
+.purple{
+  color: purple;
+}
+.bgPurple{
+  background-color: purple;
 }
 
-.centerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.times{
+  font-family: 'Times New Roman', Times, serif;
 }
-
-/*# sourceMappingURL=estilos.css.map */

@@ -3,6 +3,12 @@
 }
 .centerButton {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: $centerContent;
+    justify-content: $centerContent;
+}
+.purple{
+    color: $color-secundario
+}
+.bgPurple{
+    color: $color-secundario
 }
