@@ -16,10 +16,13 @@
 
 .centerContent{
     display: flex;
-    align-items: $CenterContent;
-    justify-content: $CenterContent;
+    align-items: $centerContent;
+    justify-content: $centerContent;
   }
+.cien{
+  height: 100px;
   
+}
 .purple{
   color: purple;
 }

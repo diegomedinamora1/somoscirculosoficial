@@ -5,22 +5,27 @@
   box-sizing: border-box;
 }
 
-.heroSection {
-  display: flex;
-  padding: 100px;
+.cien{
+  height: 100px;
 }
 
-.centerContent {
+.centerContent{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  padding-bottom: 25px;
 }
 
 .centerText {
   display: flex;
   justify-content: center;
+}
+
+.centerLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  padding-bottom: 25px;
 }
 
 .centerButton {
