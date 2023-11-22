@@ -1,33 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
-.purple {
-  color: purple;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bgPurple {
-  background-color: purple;
-}
-
-.times {
-  font-family: "Times New Roman", Times, serif;
-}
 .cien{
   height: 100px;
 }
 
-.centerButton, .alignText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .centerContent{
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-
-.padding {
-  padding: 10vh;
+  align-items: center;
 }
 
 .centerText {
@@ -35,23 +20,18 @@
   justify-content: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.heroSection {
-  display: flex;
-  padding: 100px;
-}
-
-.centerLogo {
+.centerLogo{
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 100px;
   padding-bottom: 25px;
+}
+
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
@@ -85,19 +65,29 @@ button {
   cursor: pointer;
 }
 
-.centerButton, .alignText {
+.padding {
+  padding: 100px;
+}
+
+.centerButton {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.alignText{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+.purple{
+  color: purple;
+  font-family: 'Times New Roman', Times, serif
+}
+.bgPurple{
+  background-color: purple;
+}
 .times {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-.articulo {
-  font-weight: 500;
-}
-
-/*# sourceMappingURL=estilos.css.map */
