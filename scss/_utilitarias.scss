@@ -13,10 +13,18 @@
     align-items: $centerContent;
     justify-content: $centerContent;
   }
+
+.centerContent{
+    display: flex;
+    align-items: $CenterContent;
+    justify-content: $CenterContent;
+  }
   
-  
+.purple{
+  color: purple;
+}
 .padding {
-    padding: 100px;
+    padding: 10vh;
   }
 
 .centerText {
