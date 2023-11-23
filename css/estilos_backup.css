@@ -67,10 +67,10 @@ button {
 }
 
 .padding {
-  padding: 100px;
+  padding: 10vh;
 }
 
-.alignText{
+.alignText {
   display: flex;
   flex-direction: column;
   justify-content: center;
