@@ -11,7 +11,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.centerButton, .alignText {
+.centerButton{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,10 +91,10 @@ button {
   cursor: pointer;
 }
 
-.centerButton, .alignText {
+.alignText {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .times {
@@ -108,5 +108,7 @@ button {
 .articulo {
   font-weight: 500;
 }
+
+
 
 /*# sourceMappingURL=estilos.css.map */
