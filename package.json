@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/diegomedinamora1/somoscirculosoficial/issues"
   },
-  "homepage": "https://github.com/diegomedinamora1/somoscirculosoficial#readme"
+  "homepage": "https://github.com/diegomedinamora1/somoscirculosoficial#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
