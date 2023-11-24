@@ -53,6 +53,22 @@
   justify-content: center;
 }
 
+@keyframes flotar {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: trnaslateY(0px);
+  }
+}
+.humoDeCafe {
+  animation-name: flotar;
+  animation-duration: 8s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -139,23 +155,6 @@ button {
 
 .articulo {
   font-weight: 500;
-}
-
-@keyframes flotar{
-  0%{
-    transform: translateY(0px);
-  }
-  50%{
-    transform: translateY(125px);
-  }
-  100%{
-    transform: trnaslateY(0px);
-  }
-
-}
-.humoDeCafe{
-  animation-name: flotar;
-  animation-duration: 8s;
 }
 
 /*# sourceMappingURL=estilos.css.map */

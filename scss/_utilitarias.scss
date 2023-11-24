@@ -43,3 +43,19 @@
     flex-direction: column;
     justify-content: $centerContent;
 }
+@keyframes flotar{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: trnaslateY(0px);
+  }
+
+}
+.humoDeCafe{
+  animation-name: flotar;
+  animation-duration: 8s;
+}
