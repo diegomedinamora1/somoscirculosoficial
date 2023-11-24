@@ -86,3 +86,50 @@ button {
 .times {
   font-family: 'Times New Roman', Times, serif;
 }
+.contenedor{
+  position:relative;
+  overflow:hidden;
+}
+
+.contenedor img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+
+}
+
+.contenedor img:hover {
+  transform: scale(1.5);
+}
+
+.centerLogo {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding-bottom: 25px;
+  transition: transform 1s;
+}
+.centerLogo:hover{
+  transform: scale(1.5);
+}
+.articulo {
+  font-weight: 500;
+}
+
+@keyframes flotar{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: trnaslateY(0px);
+  }
+
+}
+.humoDeCafe{
+  animation-name: flotar;
+  animation-duration: 4s;
+}
