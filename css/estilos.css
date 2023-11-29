@@ -159,4 +159,12 @@ button {
   font-weight: 500;
 }
 
+.p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.span {
+  color: purple;
+}
+
 /*# sourceMappingURL=estilos.css.map */

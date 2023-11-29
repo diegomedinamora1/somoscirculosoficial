@@ -1,3 +1,11 @@
 .articulo{
     font-weight: map-get($fuentes , medium );
 }
+  .p {
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .span {
+    color: purple;
+  }
+  

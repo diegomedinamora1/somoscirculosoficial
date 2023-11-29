@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
       <header>
@@ -111,7 +112,7 @@
     
         <div class="row featurette">
           <div class="col-md-7 order-md-2 alignText">
-
+            <div data-aos: slide-left ></div>
             <h2 class="featurette-heading fw-normal lh-1 purple times">En cualquier momento, anónimo y gratuito.</h2>
             <p class="lead times">Ingresa a conversaciones en vivo y comparta pensamientos, haz preguntas o aprende de otros en el mismo viaje. Un espacio seguro para hablar, cuando lo necesites.</p>
           </div>
@@ -157,6 +158,10 @@
         <p class="text-center text-body-secondary">© 2023 Somos Círculos, Inc</p>
       </footer>
     </div>
-    <script src="/js/bootstrap.bundle.min.js"> </script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      </script>
 </body>
 </html>
