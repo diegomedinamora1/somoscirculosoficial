@@ -166,5 +166,7 @@ button {
 .span {
   color: purple;
 }
-
+.body {
+  max-width: 900px;
+}
 /*# sourceMappingURL=estilos.css.map */
